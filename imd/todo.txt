@@ -1,0 +1,10 @@
+-3 componenti in collegamento
+* IMD
+* CAN-SPI converter
+* Arduino che fa robe
+
+-Arduino:
+* ricevi un dato via SPI
+* quel dato rappresenta la resistenza rilevata dall'IMD
+* se il dato è minore di 300k porta a 0 il pin D5
+* lascia alto il pin D5 in altro caso
